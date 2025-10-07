@@ -9,6 +9,6 @@ class authController extends Controller
 {
     public function login()
     {
-        return Inertia::render('login');
+        return Inertia::render('auth/login');
     }
 }
