@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [App\Http\Controllers\authController::class, 'login']);
+Route::get('login/', [App\Http\Controllers\authController::class, 'login']);
+Route::get('register/', [App\Http\Controllers\authController::class, 'register']);
